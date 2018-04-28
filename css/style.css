@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Anton');
+/*font-family: 'Anton', sans-serif;*/
+@font-face
+{
+    font-family: 'Panton';
+
+    src: url(../fonts/Panton-LightCaps.otf);
+}
+section#main
+{
+    height: 780px;
+
+    background: url(../img/bg.jpg)no-repeat top center;
+    background-size: 100%;
+}
+.logo
+{
+    display: block;
+
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 57px;
+}
+.menu
+{
+    padding-top: 70px;
+}
+.top-menu
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    display: inline;
+
+    padding: 9px;
+
+    list-style: none;
+
+    text-transform: uppercase;
+
+    color: #fff;
+}
+.top-menu:hover
+{
+    text-decoration: none;
+
+    color: #54d169;
+}
+.top-menu:active
+{
+    color: #4aab5b;
+}
+.top-menu:visited
+{
+    text-decoration: none;
+
+    color: none;
+}
+.top-menu:link
+{
+    text-decoration: none;
+
+    color: none;
+}
+.main-text
+{
+    font-family: 'Panton', sans-serif;
+    font-size: 35px;
+
+    padding-top: 260px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-text
+{
+    color: #fff;
+}
+.green-text
+{
+    color: #54d169;
+}
+.vector
+{
+    width: 500px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 6px;
+
+    background-color: #b57c34;
+    background-image: linear-gradient(to right, #54d169 0%, #aff57a 49%, #54d169 100%);
+}
+.smoll-main-text
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: regular;
+
+    margin-top: 6px;
+
+    text-align: center;
+
+    color: #fff;
+}
+.smoll-main-text span
+{
+    color: #54d169;
+}
+.button
+{
+    text-align: center;
+}
+.tbutton
+{
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: medium;
+
+    width: 200px;
+    height: 50px;
+    margin-top: 120px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    background-color: #54d169;
+}
+
+.tbutton:hover
+{
+    border: none;
+    background-color: #4aab5b;
+}
+.down
+{
+    display: block;
+
+    margin: 0 auto;
+    margin-top: 120px;
+
+    opacity: .5;
+}
+@media (min-width: 1200px)
+{
+    section#main
+    {
+        height: 1170px;
+    }
+}
+@media (min-width: 992px)
+{
+    section#main
+    {
+        height: 1170px;
+    }
+}
+@media (min-width: 768px)
+{
+    section#main
+    {
+        height: 1170px;
+    }
+}
