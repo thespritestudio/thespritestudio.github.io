@@ -164,22 +164,6 @@ section
     text-align: center;
     text-transform: uppercase;
 }
-.position-right
-{
-    float: light;
-
-    border-radius: 20px;
-}
-.position-left
-{
-    float: right;
-
-    border-radius: 20px;
-}
-.position-center
-{
-    border-radius: 20px;
-}
 .p2-text
 {
     font-family: 'Roboto', sans-serif;
