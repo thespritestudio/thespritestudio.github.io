@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SpriteStudio - Сообщество Web - Дизайна</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+</head>
+<body>
+  <header id="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <a href=""><img src="img/logo.png" alt="Логотип" class="logo"></a>
+        </div>
+        <div class="menu">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <ul class="top-menu" id="menu-1">
+              <li><a href="#" onclick="slowScroll ('#main')">Домой</a></li>
+              <li><a href="#" onclick="slowScroll ('#phortfolio')">Портфолио</a></li>
+              <li><a href="#" onclick="slowScroll ('#about')">О нас</a></li>
+              <li><a href="#" onclick="slowScroll ('#pay')">Цены</a></li>
+              <li><a href="#" onclick="slowScroll ('#contacts')">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main-text">Добро пожаловать в <span class="green-text">Sprite studio</span></div>
+      <div class="vector"></div>
+      <div class="smoll-main-text">Мы сообщество <span>Web</span> - Дизайнеров, Программистов с многолетним опытом работы</div>
+      <div class="button"><button class="tbutton">Заказать</button></div>
+    </div>
+  </header>
+  <section>
+    <div id="phortfolio"></div>
+    <div class="p-text">
+      <h1>Портфолио</h1>
+      <h2 class="p2-text text-center" >наши работы будут пополняться</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"><img src="img/phortfolio/img1.jpg" class="position-left" alt=""></div>
+        <div class="col-md-4 text-center"><img src="img/phortfolio/img2.jpg" class="position-center" alt=""></div>
+        <div class="col-md-4"><img src="img/phortfolio/img3.jpg" class="position-right" alt=""></div>
+      </div>
+    </div><br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"><img src="img/phortfolio/img1.jpg" class="position-left" alt=""></div>
+        <div class="col-md-4 text-center"><img src="img/phortfolio/img2.jpg" class="position-center" alt=""></div>
+        <div class="col-md-4"><img src="img/phortfolio/img3.jpg" class="position-right" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <div class="section2">
+    <div id="about"></div>
+    <div class="about">О нас</div>
+    <h2 class="p3-text text-center" >наша команда</h2>
+    <div class="mt">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4"><div class="avatar"><img src="img/Owners/halper.png" alt=""></div></div>
+          <div class="col-md-4"><p class="owner">Это наш <span>Основатель</span>, он достаточно молодой,
+           но у него уже позади мнолетний опыт работы с клиентами, 
+         боллее 100 выпущенный проектов, которые популярны во всём мире!</p></div>
+       </div>
+     </div>
+   </div>
+   <div class="mt">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"><p class="halper">Это <span>Заместитель</span> нашего главнокомандующего, 
+        который отвечает за слаженность и аккуратность всего нашего коллектива.</p></div>
+        <div class="col-md-4"><div class="avatar"><img src="img/Owners/owner.png" alt="""></div></div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="section3">
+  <div id="pay"></div>
+  <div class="pay">Цены</div>
+  <h2 class="p4-text text-center" >стоимость услуг</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="table2"><div class="premium-name">СТАРТ ПАК</div>
+        <div class="premium-pay">1.000 <span class="premium-pay-val">руб</span></div>
+        <div class="line"></div>
+        <div class="big-information text-center"><span>*</span>Это отличный вариант для вашего бизнеса</div>
+        <ul class="information">
+          <li>•Уникальный по индивидуальной структуре дизайн</li><br>
+          <li>•Адаптивная вёрстка(ПК,смартфон, планшет).</li><br>
+          <li>•Гарантийная поддержка — 1 месяц</li><br>
+          <li>•Подключение домена (домен в ПОДАРОК на 1 год)</li>
+        </ul><br><br><br><br>
+        <button class="buy2">Заказать</button>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="table1">
+        <div class="top-buy">ПОПУЛЯРНЫЙ</div>
+        <div class="premium-name">ПРЕМИУМ ПАК</div>
+        <div class="premium-pay">2.500 <span class="premium-pay-val">руб</span></div>
+        <div class="line"></div>
+        <div class="big-information text-center"><span>*</span>Это отличный вариант для вашего бизнеса</div>
+        <ul class="information">
+          <li>•уникальный по готовой информационной сетке дизайн</li><br>
+          <li>•Адаптивная вёрстка(ПК,смартфон, планшет).</li><br>
+          <li>•Гарантийная поддержка — 1 год</li><br>
+          <li>•Подключение домена (домен в ПОДАРОК на 1 год)</li>
+        </ul><br><br><br><br>
+        <button class="buy1">Заказать</button>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="table3"><div class="premium-name">БИЗНЕС ПАК</div>
+      <div class="premium-pay">5.000 <span class="premium-pay-val">руб</span></div>
+      <div class="line"></div>
+      <div class="big-information text-center"><span>*</span>Это отличный вариант для вашего бизнеса</div>
+      <ul class="information">
+        <li>•Уникальный по индивидуальной структуре дизайн</li><br>
+        <li>•Адаптивная вёрстка(ПК,смартфон, планшет).</li><br>
+        <li>•Бессрочная гарантийная поддержка</li><br>
+        <li>•Подключение домена (домен в ПОДАРОК на 1 год)</li>
+      </ul><br><br><br><br>
+      <button class="buy3">Заказать</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="section4">
+  <div id="contacts"></div>
+  <div class="feed-back">Обратная связь</div>
+  <h2 class="p3-text text-center" >Мы будем очень рады вашему письму!</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-8">
+        <form class="form">
+          <input type="text" name="mfbName" placeholder="Имя:" required/>
+          <input type="text" name="mfbMail" placeholder="Email:" required/>
+          <input type="texter" name="mfbPhone" placeholder="Сообщение:" required/>
+          <input type="submit" value="Отправить" />
+        </form>
+      </div><br>
+      <div class="label-form">* Данная форма поможет нам связаться с вами. Для дальнейшего обсуждения вашего заказа</div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4 text-center"><div class="footer-copyright">© Copyright 2018 SpriteStudio.com</div></div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>
+</footer>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+<script src="js/headhesive.min.js" charset="utf-8"></script>
+<script src="js/js.js"></script>
+<script>
+  function slowScroll (id) {
+    var offset = 0;
+    $('html, body').animate ({
+      scrollTop: $(id).offset ().top - offset
+    }, 500);
+    return false;
+  }
+</script>
+</body>
+</html>
