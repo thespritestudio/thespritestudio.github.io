@@ -65,6 +65,9 @@ header#main
 
     color: #fff;
 }
+.top-button-center{
+    margin: 0 auto;
+}
 .main-text
 {
     font-family: 'Panton', sans-serif;
